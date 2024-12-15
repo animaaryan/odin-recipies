@@ -1,0 +1,30 @@
+/* CSS code goes down here */
+
+* {
+    background-color: azure;
+}
+
+.main-title {
+    font-weight: 900;
+    align-items: center;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+img {
+    border: 5px black solid;
+}
+
+.food {
+    font-style: none;
+    list-style: none;
+    color:coral;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+a {
+   text-decoration: none; 
+   color: crimson;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+
