@@ -1,24 +1,6 @@
 /* CSS code goes down here */
-
-* {
-    background-color: azure;
-}
-
-.main-title {
-    font-weight: 900;
-    align-items: center;
-    font-family: Verdana, Tahoma, sans-serif;
-}
-
 img {
     border: 5px black solid;
-}
-
-.food {
-    font-style: none;
-    list-style: none;
-    color:coral;
-    font-family: Verdana, Tahoma, sans-serif;
 }
 
 a {
@@ -26,5 +8,55 @@ a {
    color: crimson;
    font-weight: bold;
    font-size: 1.5rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* CSS Edit */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: beige;
+    color: #000;
+    display: flex;
+    font-weight: 900;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 48px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.food {
+    display: flex;
+    border: 2px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    padding: 16px;
+    color:coral;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
